@@ -64,7 +64,7 @@ public final class PixelPropsUtils {
     );
     
     private static final Map<String, String> codmProps = Map.of(
-        "MODEL", "SO-52A"
+        "MODEL", "SM-G9750"
     );
 
     private static final Map<String, String> wrProps = Map.of(
