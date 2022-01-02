@@ -60,11 +60,13 @@ public final class PixelPropsUtils {
     );
 
     private static final Map<String, String> pubgProps = Map.of(
-        "MODEL", "GM1917"
+        "MODEL", "GM1917",
+        "MANUFACTURER", "OnePlus"
     );
     
     private static final Map<String, String> codmProps = Map.of(
-        "MODEL", "SM-G9750"
+        "MODEL", "SM-G9750",
+        "MANUFACTURER", "SAMSUNG"
     );
 
     private static final Map<String, String> wrProps = Map.of(
