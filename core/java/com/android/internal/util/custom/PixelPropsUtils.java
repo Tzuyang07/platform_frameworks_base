@@ -61,10 +61,12 @@ public final class PixelPropsUtils {
 
     private static final Map<String, String> pubgProps = Map.of(
         "MODEL", "GM1917"
+        "MANUFACTURER", "OnePlus"
     );
     
     private static final Map<String, String> codmProps = Map.of(
-        "MODEL", "SO-52A"
+        "MODEL", "SM-G9750"
+        "MANUFACTURER", "SAMSUNG"
     );
 
     private static final Map<String, String> wrProps = Map.of(
@@ -72,6 +74,11 @@ public final class PixelPropsUtils {
         "MANUFACTURER", "Samsung",
         "DEVICE", "SM-G9880",
         "MODEL", "SM-G9880"
+    );
+    
+    private static final Map<String, String> aovProps = Map.of(
+        "MODEL", "R11 Plus"
+        "MANUFACTURER", "OPPO"
     );
    
     private static final Map<String, String> mlProps = Map.of(
@@ -129,6 +136,10 @@ public final class PixelPropsUtils {
     
     private static final List<String> packagesToChangeML = List.of(
         "com.mobile.legends"
+    );
+    
+    private static final List<String> packagesToChangeAOV = List.of(
+        "com.garena.game.kgid"
     );
     
    private static final List<String> packagesToChangeCOD = List.of(
